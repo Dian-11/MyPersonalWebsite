@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<title>Finals Activity 2: Order Forms</title>
+	<meta charset ="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+   <!--LOPEZ, ADRIAN-->
+   <!--CSAD | CIP1101-->
+   
+</head>
+  
+<body>
+   
+   <table class ="CIF">
+     
+       <thead>
+         <tr>
+           <th colspan="2"> Customer Information Form  </th>
+         
+         </tr>  
+       </thead>
+         
+       
+       <tbody>
+         <tr>
+           <td><label for="name"> Full Name (Lastname, Firstname, MI.): </label></td>
+           <td><input type="text" name="name" size="29.5" placeholder="Type your name here" maxlength="50" auto focus required></input></td>
+         </tr>  
+       
+       <tr>
+         <td><label for="address">Complete Address:</label></td> 
+         <td>
+           <textarea rows="5" cols="30" auto focus required > </textarea>
+         </td>  
+       </tr>   
+         
+       <tr>
+         <td><label for ="emaddres">Email Address:</label></td>
+         <td>
+           <input type="text" name="name" size="29.5" placeholder="Type your Email Address" maxlength="50" auto focus required></input>
+         </td>      
+       </tr>
+             
+             
+       <tr>
+         <td><label for ="description">Description of how to get to the place.</label></td>
+         <td>
+          <textarea rows="7" cols="30" auto focus required > </textarea>
+         </td>
+       </tr>
+  
+      </tbody>   
+      <tfoot>
+        <tr>
+          <th colspan="2"><input type="submit" id="btn1" value="Enter my Information"></th>
+      </tfoot>     
+   
+   </table>
+<hr>
+		<br>
+		<br>
+<hr>
+	<table class="OF">
+	<thead>
+         <tr>
+           <th colspan="4"> Order Form  </th>
+         </tr>  
+    </thead>
+	
+	<tbody>
+		<tr>
+			<td><label for="burgers"> Burgers Structure: </label> </td>
+			<td>
+				<input type="checkbox" id="sngl_patty" name="sngl_patty">
+                  <label for="sngl_patty">Single Patty </label><br>
+				  
+				<input type="checkbox" id="dbl_patty" name="dbl_patty">
+                  <label for="dbl_patty">Double Patty </label><br>
+				  
+				<input type="checkbox" id="cheese" name="cheese">
+                  <label for="cheese"> Cheese </label><br>  
+				
+				<input type="checkbox" id="coleslaw" name="coleslaw">
+                  <label for="coleslaw"> Coleslaw </label><br> 
+			
+				<input type="checkbox" id="tmt" name="tmt">
+                  <label for="tmt"> Tomato </label><br>
+				
+				<input type="checkbox" id="ccmbr" name="ccmbr">
+                  <label for="ccmbr"> Cucumber </label><br>
+				
+				<input type="checkbox" id="bacon" name="bacon">
+                  <label for="bacon"> Bacon </label><br> 
+				
+			</td>	
+			
+			<td><label for="choice_bun"> Choice of Bun: </label> </td>
+			<td>
+				<select name="choice_bun" id="choice_bun" size ="1">
+				<option value="white_bun">White Bun</option>
+				<option value="wheat_bun">Wheat Bun</option>
+				<option value="honey_oat">Honey Oat</option>
+				<option value="sugar_free" SELECTED>Sugar-Free</option>
+			</td>
+		</tr>
+		
+		
+		<tr>
+           <td><label for="qtty_burger"> Quantity: </label></td>
+           <td colspan="4"><input type="text" name="name" size="29.5" placeholder="How many?" maxlength="50" auto focus required></input></td>
+        </tr> 
+		
+		<tr>
+			<td><label for="pasta"> Pasta: </label> </td>
+			<td colspan="4">
+				<input type="radio" id="carbonara" name="pasta" value ="carbonara" CHECKED>
+                  <label for="carbonara">Carbonara</label><br>
+				  
+				<input type="radio" id="pesto" name="pasta" value="pesto">
+                  <label for="pesto">Pesto </label><br>
+				  
+				<input type="radio" id="spag" name="pasta" value="spag">
+                  <label for="spag"> Spagghetti </label><br>  
+				
+				
+				<input type="checkbox" id="" name="xtr_chz">
+                  <label for="xtr_chz"> Extra cheese </label><br> 
+			
+				<input type="checkbox" id="ext_sc" name="ext_sc">
+                  <label for="tmt"> Extra Sauce </label><br>
+				
+				<tr>
+					<td><label for="qtty_pasta"> Quantity: </label></td>
+					<td colspan ="4"><input type="text" name="name" size="29.5" placeholder="How many?" maxlength="50" auto focus required></input></td>
+				</tr>
+				
+			</td>	
+		</tr>
+		
+		<tr>
+			<td><label for="fries"> Fries: </label> </td>
+			<td>
+					<select name="fries" id="fries" size ="1"><br>
+					<option value="s" SELECTED>S</option><br>
+					<option value="M">M</option><br>
+					<option value="L">L</option><br>
+					<option value="XL" >XL</option>
+			</td>
+			<td colspan="4">
+				<input type="checkbox" id="BBQ" name="BBQ">
+                  <label for="BBQ"> BBQ </label><br>
+				
+				<input type="checkbox" id="chzf" name="chzf">
+                  <label for="chzf"> Cheese </label><br>
+				
+				<input type="checkbox" id="srcrm" name="srcrm">
+                  <label for="srcrm"> Sour Cream </label><br>
+				</div>  
+			</td>
+		</tr>
+		
+		<tr>
+           <td><label for="qtty_fries"> Quantity: </label></td>
+           <td colspan="4"><input type="text" name="name" size="29.5" placeholder="How many?" maxlength="50" auto focus required></input></td>
+        </tr> 
+		
+		<tr>
+			<td><label for="drinks"> Drinks: </label> </td>
+			<td colspan="4">
+					<select name="drinks" id="drinkss" size ="1"><br>
+					<option value="water" SELECTED>Water</option><br>
+					<option value="coke">Coke</option><br>
+					<option value="root_beer" >Root Beer</option>
+					<option value="four-seasons">Four Seasons</option><br>
+					<option value="milktea" >Milk Tea</option>
+			</td>
+		</tr>
+		<tr>
+           <td><label for="qtty_drinks"> Quantity: </label></td>
+           <td colspan="4"><input type="text" name="name" size="29.5" placeholder="How many?" maxlength="50" auto focus required></input></td>
+        </tr> 
+		
+		<tr>
+			<td><label for="mod"> Mode of Order: </label> </td>
+			<td colspan="4">
+				<input type="radio" id="deliver" name="mod" value ="deliver" CHECKED>
+                  <label for="carbonara">Delivery</label><br>
+				  
+				<input type="radio" id="pick_up" name="mod" value="pick_up">
+                  <label for="pesto">Pick Up </label><br>
+				  
+		</tr>
+		
+		<tr>
+         <td><label for ="feedback">Your Feedback:</label></td>
+         <td colspan="4">
+          <textarea rows="7" cols="30" auto focus required > </textarea>
+         </td>
+       </tr>
+		
+		
+	</tbody>
+	
+	<tfoot>
+        <tr>
+          <th colspan="4"><input type="submit" id="btn1" value="Submit Form"></th>
+    </tfoot>  
+	
+	</table>
+ </body> 
+ </html>        
+
